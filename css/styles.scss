@@ -4,15 +4,18 @@ body {
 	font-family: 'Lato', sans-serif;
 	}
 
-	body article, footer {
+	body article, footer, {
 		text-align: center;
 		list-style-position: inside;
 	}
 	body h1{
 		font-size: 2em;
-	}
-	body h1 {
 		text-shadow: 5px 5px #adadac
+	}
+
+	body h3{
+		text-align: center;
+		margin: 0%
 	}
 
 	body .logo {
