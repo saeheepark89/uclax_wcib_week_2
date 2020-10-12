@@ -1,8 +1,63 @@
 body {
+	background-image: url('/images/brickwall.jpg');
+	background-size: 50%;
+	font-family: 'Lato', sans-serif;
+	}
 
-	background: url('/images/background.jpg');
-	font-family: sans-serif;
-	text-align: center;
-	list-style-position: inside;
+	body article, footer {
+		text-align: center;
+		list-style-position: inside;
+	}
+	body h1{
+		font-size: 2em; 
+	}
+	body h1 {
+		text-shadow: 5px 5px #adadac
+	}
 
+	body .logo {
+		display: block;
+		width: 50%;
+		height: auto;
+		margin-left: 25%;
+		margin-right: auto;
+	}
+
+	body .video {
+		margin-top: 2em;
+		margin-left: auto;
+		margin-right: auto;
+		width: fit-content;
+		padding: 1em;
+		border: 5px;
+		border-style: solid dashed;
+		border-color: black;
+		background-color: #adadac;
+	}
+
+	body .album {
+		display: block;
+		margin-top: 2em;
+		margin-left: auto;
+		margin-right: auto;
+		width: 447px;
+		height: 274px;
+		padding: 1em;
+		border: 5px;
+		border-style: dashed solid;
+		border-color: black;
+		background-color: #bfbfbd;
+	}
+
+	a:link {
+		color: #007d7b;
+	}
+
+	a:visited {
+		color: #49007d;
+	}
+
+	a:hover {
+		color: #bfbfbd;
+		background: white;
 	}
